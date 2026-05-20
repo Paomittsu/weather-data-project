@@ -1,4 +1,4 @@
-# Weather Data Project
+# Weather Data Project by Philip_F
 Automated ELT Pipeline Based on Calvin Yoon's YouTube Tutorial: https://www.youtube.com/watch?v=vMgFadPxOLk
 
 ## Manila Weather Dashboard Screenshot
