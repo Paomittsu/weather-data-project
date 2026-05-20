@@ -1,0 +1,7 @@
+.venv/
+**/.env
+*_init.sql
+profiles.yml
+__pycache__/
+*.pyc
+postgres/data/

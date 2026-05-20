@@ -1,0 +1,2 @@
+CREATE USER your_airflow_user_name WITH PASSWORD 'your_airflow_password';
+CREATE DATABASE your_airflow_db_name OWNER your_airflow_owner;

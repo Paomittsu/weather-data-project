@@ -1,0 +1,5 @@
+CREATE USER your_superset_user_name WITH PASSWORD 'your_superset_password';
+CREATE DATABASE your_superset_db OWNER your_superset_owner;
+
+CREATE USER examples WITH PASSWORD 'examples';
+CREATE DATABASE examples_db OWNER examples;
