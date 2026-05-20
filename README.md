@@ -1,5 +1,5 @@
 # Weather Data Project
-Automated ETL Pipeline Based on Calvin Yoon's YouTube Tutorial: https://www.youtube.com/watch?v=vMgFadPxOLk
+Automated ELT Pipeline Based on Calvin Yoon's YouTube Tutorial: https://www.youtube.com/watch?v=vMgFadPxOLk
 
 ## Manila Weather Dashboard Screenshot
 ![Superset Weather Dashboard](images/weather_dashboard.jpg)
@@ -33,9 +33,9 @@ Complete tech stack for the project:
 Each containerized application(airflow, dbt, postgres, docker) were given their own folders in order to cleanly mount local files to the container file directories. 
 - airflow contains the dags folder which houses the orchestrator.py file which handles the automation and triggering of the python scripts, PostgreSQL, and dbt models.
 - api-request houses the python scripts that handle fetching the data from Weatherstack and interfacing with PostgreSQL in order to create the tables and schema on first run, and to insert the respective records.
-- dbt mainly ocntains the modeling files that prepare the raw data.
+- dbt mainly contains the modeling files that prepare the raw data.
 - docker contains the Apache-Superset configuration and setup files to allow it to communicate with the rest of the pipeline.
-- postgres contains the databas initialization files, in this repository are replaced with .example versions, which establishes the basic database details such as the user, password and database name.
+- postgres contains the database initialization files, in this repository are replaced with .example versions, which establishes the basic database details such as the user, password and database name.
 - Lastly, the docker-compose.yaml file is the configuration and setup for all of the containerized applications and allows all of the apps to interface with each other and be able to pass data to everything.
 
 
